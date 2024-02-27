@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body,html{
+    height: 100%;
+}
+body{
+    background: linear-gradient(125deg, #e9e981,#f17896);
+}
+.navBar{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #eb7a6b;
+}
+body .navBar ul{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5vw; 
+    font-weight: bolder;
+    padding: 0 2vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+li:hover{
+    background-color: #ec5945;
+    cursor: pointer;
+}
+
+.firstContent{
+    height: 90vh;
+    display: flex;
+}
+article{
+    width: 50%;
+    background: transparent;
+    padding:8% 6%;
+}
+aside{
+    width: 50%;
+    overflow: hidden;
+    
+}
+article .button{
+    background-color: #eb7a6b;
+    padding: 2% 10%;
+    color:white;
+    border: 0px;
+    font-size: 95%;
+}
+article .button:hover{
+    background-color: #eb5845;
+    cursor: pointer;
+}
+.secondContent{
+    height: 100vh;
+    padding: 10% 5%;
+    display: flex;
+}
+.secondContent .section1{
+    height: 110%;
+    width: 50%;
+}
+.secondContent .section1 .columnImage1 .image1{
+    height:100%;
+    width: 100%; 
+    transform: scaleX(1.1) scaleY(2); 
+    transform-origin: center; 
+    margin-bottom: 100%;
+}
+.secondContent .section1 .columnImage1 .image2{
+    height:100%; 
+    width: 100%; 
+    transform: scaleX(1) scaleY(2); 
+    transform-origin: center; 
+    margin-top: 10px;
+}
+.secondContent .section1 .columnImage2 .image3{
+    height:100%; 
+    width: 100%; 
+    transform: scaleX(1.1) scaleY(1); 
+    transform-origin: center;
+}
+.secondContent .section2{
+    height: 110%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.secondContent .section2 div{
+    height: 65%; 
+    width: 75%; 
+    padding: 7%; 
+    margin-left: 5%; 
+    background-color: #eb7a6b;
+}
